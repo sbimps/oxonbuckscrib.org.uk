@@ -1,0 +1,17 @@
+/* global setting required by imPRESS framework */
+input.error, select.error, textarea.error{
+	color:#fff !important;
+	background-color:#320707 !important;
+	margin:0;
+	padding:4px 4px;
+	border:1px solid #de3535;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	width:160px;
+}
+
+label.error{
+	color:#320707 !important;
+	font-weight:bold !important;
+}

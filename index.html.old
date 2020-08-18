@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Oxon &amp; Bucks Winter Crib League</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bootstrap/css/docs.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="brand" href="./index.html">OBWCL</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="">
+            <a href="./teams.html">Teams</a>
+          </li>
+          <li class="">
+            <a href="./rules.html">Rules</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<header class="jumbotron subhead">
+  <div class="container">
+    <h1>Oxon &amp; Bucks Winter Crib League</h1>
+    <p class="lead">Involving Pubs &amp; Clubs from Wheatley, Littleworth, Ickford, Tiddington, Chalgrove, Great Haseley, Postcombe &amp; Headington Quarry</p>
+  </div>
+</header>
+
+<div class="container">
+	<div class="row">
+		<div class="span3 bs-docs-sidebar">
+		<ul class="nav nav-list bs-docs-sidenav">
+			<li><a href="#news"><i class="icon-chevron-right"></i> News</a></li>
+			<li><a href="#results"><i class="icon-chevron-right"></i> Results</a></li>
+			<li><a href="#contact"><i class="icon-chevron-right"></i> Contact</a></li>
+			<li><a href="#manage"><i class="icon-chevron-right"></i> Manage</a></li>
+		</ul>
+		</div>
+
+		<div class="span9">
+			<section id="news">
+			  <div class="page-header">
+			    <h1>News</h1>
+			    <p>Details of any news items go here<p>
+			    <p>Season Starts 24/09/12</p>
+			    <p>New Rule: Singles to be played as in years previousto 2012</p>
+			    <p>AGM 10/09/12. The AGM was very well attended</p>
+			  </div>
+			</section>
+
+			<section id="results">
+			  <div class="page-header">
+			    <h1>Results</h1>
+			    <p>Latest Games</p>
+			    <p>View All Results and League Tables</p>
+			  </div>
+			</section>
+
+			<section id="contact">
+			  <div class="page-header">
+			    <h1>Contact</h1>
+			  </div>
+			</section>
+
+			<section id="manage">
+			  <div class="page-header">
+			    <h1>Manage</h1>
+			  </div>
+			</section>
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+	<div class="container">
+	<p class="pull-right"><a href="#">Back to top</a></p>
+	<p>Chairman: Paul Honour</p>
+	<p>Secretary:</p>
+	<p>General Dogsbody: Ken Lawton</p>
+	<p>Website: Stuart Bull</p>
+	
+	<!--p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+	<p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+	<p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+	<ul class="footer-links">
+	  <li><a href="http://blog.getbootstrap.com">Read the blog</a></li>
+	  <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Submit issues</a></li>
+	  <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap and changelog</a></li>
+	</ul-->
+	</div>
+</footer>
+
+<script>
+!function($){
+	$(function(){
+	    var $window = $(window);
+		$('.bs-docs-sidenav').affix({
+	    	offset: {
+	       		top: function () { return $window.width() <= 980 ? 290 : 210 },
+	    		bottom: 270
+	    	}
+	    });
+    })
+}(window.jQuery);
+</script>
+</body>
+</html>
